@@ -17,5 +17,17 @@ public class Table {
         String strings[] = {"element", "inny element"};
 
         System.out.println(strings[1]);
+
+        // multidimensional array
+
+        String[][] strings2 = {{"q", "w", "e"}, {"a"},
+                {"element", "inny element", "element", "inny element", "element", "inny element"}};
+
+        System.out.println(strings2[0][2]);
+
+        int[][][] ints3 = new int[][][]{{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
+        int[][] ints2 = ints3[0];
+        System.out.println(ints2[0][0]);
+
     }
 }
