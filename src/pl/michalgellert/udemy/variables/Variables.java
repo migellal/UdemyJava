@@ -1,6 +1,9 @@
 package pl.michalgellert.udemy.variables;
 
 public class Variables {
+
+    // final static int AA = 11;
+
     public static void main(String[] args) {
         byte b = 127;
         byte b1 = -128;
@@ -74,5 +77,12 @@ public class Variables {
 
         System.out.println(x);
 
+        // -------------const-------------------//
+
+        final int Z_Z = 13;
+        int z1;
+        z1 = 8;
+        // z *= 2;
+        System.out.println(Z_Z);
     }
 }
