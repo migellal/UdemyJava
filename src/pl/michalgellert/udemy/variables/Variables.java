@@ -30,5 +30,26 @@ public class Variables {
         System.out.println(d);
         System.out.println(helloHowAreYou);
         System.out.println(boo);
+
+        // ------------------------------//
+
+        System.out.println("Sum: " + b + b1);
+        System.out.println("Sum: " + (b + b1));
+
+        int x = 1+2;
+        int x1 = x+b;
+        int y = b-b1;
+        int xx = y*y;
+        int yy = x1/x;
+        double dd = x1/x;
+        double dx = 3;
+        double dy = 7;
+        double dz = dy/dx;
+        int r = x1%x;
+        System.out.println(x1);
+        System.out.println(yy); // 130/3 = 43 i 1/3
+        System.out.println(dd); // 130/3 = 43 i 1/3
+        System.out.println(dz); // 7/3 = 43 i 1/3
+        System.out.println(r); // 130/3 = 43 i 1/3
     }
 }
