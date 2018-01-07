@@ -39,6 +39,14 @@ public class Loops {
 
         // ---------while--------
 
+//        while(true) {
+//            System.out.println(true);
+//        }
 
+        int z = 200;
+        while(z%3!=0) {
+            z--;
+            System.out.println(z);
+        }
     }
 }
