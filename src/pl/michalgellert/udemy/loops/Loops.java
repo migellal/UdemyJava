@@ -27,13 +27,13 @@ public class Loops {
 
         int[] ints = {4, 3, 65, 123, 2, 90, 15};
 
-        for(int i = 0; i<ints.length; i++) {
+        for (int i = 0; i < ints.length; i++) {
             System.out.println(ints[i]);
         }
 
         // ----- foreach ---------
 
-        for(int i : ints) {
+        for (int i : ints) {
             System.out.println(i);
         }
 
@@ -44,7 +44,7 @@ public class Loops {
 //        }
 
         int z = 200;
-        while(z%3!=0) {
+        while (z % 3 != 0) {
             z--;
             System.out.println(z);
         }
@@ -54,6 +54,18 @@ public class Loops {
         do {
             System.out.println(false);
         }
-        while(false);
+        while (false);
+
+        // ---------------- LABELS ------------
+
+        QWERTY:
+        for (int i = 0; i < 10; i++) {
+            System.out.println("i= " + i);
+            for (int j = 0; j < 100; j++) {
+                System.out.println("j= " + j);
+                // continue LABEL;
+                break QWERTY;
+            }
+        }
     }
 }
