@@ -48,5 +48,12 @@ public class Loops {
             z--;
             System.out.println(z);
         }
+
+        // ---------- do while ------------
+
+        do {
+            System.out.println(false);
+        }
+        while(false);
     }
 }
