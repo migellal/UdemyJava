@@ -6,6 +6,7 @@ public class Client {
 
     private String firstName;
     private String lastName;
+    private int NIP;
     private Address address;
 
     public String getFirstName() {
@@ -38,5 +39,13 @@ public class Client {
 
     private String getFirstAndLastName() {
         return firstName + " " + lastName;
+    }
+
+    public int getNip() {
+        return NIP;
+    }
+
+    public void setNip(int NIP) {
+        this.NIP = NIP;
     }
 }
