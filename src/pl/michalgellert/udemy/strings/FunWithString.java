@@ -40,5 +40,18 @@ public class FunWithString {
 
         System.out.println(StrUtils.removeLastSeparator(result, ","));
 
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i <1000000 ; i++) {
+            sb.append("a");
+        }
+        System.out.println(sb.toString());
+
+//        String res = "";
+//        for (int i = 0; i <1000000 ; i++) {
+//            res += "a";
+//        }
+//        System.out.println(res);
+
+        // decode // encode
     }
 }
