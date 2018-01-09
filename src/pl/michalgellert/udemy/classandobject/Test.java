@@ -34,5 +34,7 @@ public class Test {
 
         System.out.println(clientMichael.getLastName());
         System.out.println(Client.COMPANY_NAME);
+
+        clientMichael.introduceYourself();
     }
 }

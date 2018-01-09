@@ -31,4 +31,12 @@ public class Client {
     public void setAddress(Address address) {
         this.address = address;
     }
+
+    public void introduceYourself() {
+        System.out.println("Hello, I am " + getFirstAndLastName() + ".");
+    }
+
+    private String getFirstAndLastName() {
+        return firstName + " " + lastName;
+    }
 }
