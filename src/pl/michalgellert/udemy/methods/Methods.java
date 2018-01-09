@@ -11,6 +11,9 @@ public class Methods {
 
         System.out.println(addition(9, addition(4, 3, 2)));
         System.out.println(checkBy3(4));
+
+        // foo();
+        System.out.println(factorial(8));
     }
 
     private static void sayHi() {
@@ -47,6 +50,20 @@ public class Methods {
 //        else
 //            return false;
         return a % 3 == 0;
+    }
+
+    private static void foo() {
+        System.out.println("foo");
+        foo();
+    }
+
+    // n! // 5! = 5*4*3*2*1
+
+    private static long factorial(long n) {
+        if(n==1)
+            return 1;
+        else
+            return (n*factorial(n-1));
     }
 
 }
