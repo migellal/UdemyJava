@@ -11,5 +11,14 @@ public class Test {
         s = Client.COMPANY_NAME;
 
         System.out.println(client1.name);
+
+        Client client2 = null;
+
+        System.out.println(client1);
+        System.out.println(client2);
+
+        if(client2!=null) {
+            System.out.println(client2.name);
+        }
     }
 }
