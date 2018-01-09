@@ -8,6 +8,9 @@ public class Methods {
         hi("Karol");
         hi("Maciek", "Jacek");
         hi("Maciek", "Jacek", "Wojtek");
+
+        System.out.println(addition(9, addition(4, 3, 2)));
+        System.out.println(checkBy3(4));
     }
 
     private static void sayHi() {
@@ -24,14 +27,26 @@ public class Methods {
 
     private static void hi(String... names) {
         String result = "";
-        for(String s : names) {
+        for (String s : names) {
             result = result + s + ", ";
         }
         System.out.println("Hi " + result);
     }
 
-    private static void addition(int a, int b) {
-        System.out.println((a + b));
+    private static int addition(int... a) {
+        int result = 0;
+        for (int i : a) {
+            result += i;
+        }
+        return result;
+    }
+
+    private static boolean checkBy3(int a) {
+//        if(a%3==0)
+//            return true;
+//        else
+//            return false;
+        return a % 3 == 0;
     }
 
 }
