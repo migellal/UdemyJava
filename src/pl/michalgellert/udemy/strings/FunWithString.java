@@ -1,6 +1,7 @@
 package pl.michalgellert.udemy.strings;
 
 import pl.michalgellert.udemy.solutions.Invoice;
+import pl.michalgellert.udemy.utils.StrUtils;
 
 public class FunWithString {
 
@@ -31,6 +32,13 @@ public class FunWithString {
         String[] strings = s.split(",");
 
         System.out.println(strings[2]);
+
+        String result = "";
+        for(String str : strings) {
+            result = result + str + ", ";
+        }
+
+        System.out.println(StrUtils.removeLastSeparator(result, ","));
 
     }
 }
