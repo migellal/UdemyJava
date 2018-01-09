@@ -26,9 +26,9 @@ public class Test {
         clientMichael.setFirstName("Michael");
         clientMichael.setLastName("Forbes");
 
-        Address michaelAddress = new Address();
-        michaelAddress.setPostCode("00-001");
-        michaelAddress.setPostOffice("Warsaw");
+        Address michaelAddress = new Address("Warszawa", "00-001");
+//        michaelAddress.setPostCode("00-001");
+//        michaelAddress.setPostOffice("Warsaw");
 
         clientMichael.setAddress(michaelAddress);
 
