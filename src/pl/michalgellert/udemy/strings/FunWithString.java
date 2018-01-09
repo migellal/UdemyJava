@@ -15,5 +15,22 @@ public class FunWithString {
 
         System.out.println(text);
         System.out.println(text2);
+
+//        if(text==text2) { !!!
+//            System.out.println("equals");
+//        }
+
+        if(text.equals(text2)) {
+            System.out.println("equals");
+        }
+
+        System.out.println(text.toUpperCase());
+        System.out.println(text.toLowerCase());
+
+        String s = "a,b,c,d,e";
+        String[] strings = s.split(",");
+
+        System.out.println(strings[2]);
+
     }
 }
