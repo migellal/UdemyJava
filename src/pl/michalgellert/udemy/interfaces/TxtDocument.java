@@ -1,6 +1,10 @@
 package pl.michalgellert.udemy.interfaces;
 
-public class TxtDocument implements Document {
+import pl.michalgellert.udemy.firstprogram.Main;
+
+import java.io.Serializable;
+
+public class TxtDocument implements Document, Serializable {
 
     @Override
     public boolean save() {
