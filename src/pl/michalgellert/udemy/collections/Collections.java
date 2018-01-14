@@ -1,6 +1,7 @@
 package pl.michalgellert.udemy.collections;
 
 import java.util.*;
+import java.util.stream.IntStream;
 
 public class Collections {
 
@@ -35,5 +36,16 @@ public class Collections {
             entry.getKey();
             entry.getValue();
         }
+
+        list.stream()
+                .filter(s -> s.startsWith("a"))
+                .map(String::toUpperCase)
+                .sorted()
+                .forEach(System.out::println);
+
+        IntStream.range(0, 10)
+                .forEach(System.out::println);
+
+
     }
 }
