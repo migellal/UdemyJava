@@ -1,4 +1,4 @@
-package pl.michalgellert.udemy.solutions;
+package pl.michalgellert.udemy.solutions.polymorphism;
 
 public class Box<T, V> {
 
