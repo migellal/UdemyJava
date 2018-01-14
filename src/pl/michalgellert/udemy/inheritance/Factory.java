@@ -2,7 +2,7 @@ package pl.michalgellert.udemy.inheritance;
 
 public abstract class Factory {
 
-    public void produce() {
+    public final void produce() {
         System.out.println("produce");
     }
 
@@ -11,5 +11,9 @@ public abstract class Factory {
     }
 
     public abstract void destroy();
+
+    public String introduceYourself() {
+        return "Factory";
+    }
 
 }

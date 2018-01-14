@@ -4,7 +4,7 @@ public class CarFactory extends Factory {
 
     @Override
     public void checkState() {
-        // super.checkState();
+        super.checkState();
         System.out.println("checkStateInCarFactory");
     }
 

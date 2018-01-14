@@ -26,6 +26,7 @@ public class FactoryTest {
 //            }
 //        };
 
+        System.out.println(phoneFactory.introduceYourself());
 
     }
 }
