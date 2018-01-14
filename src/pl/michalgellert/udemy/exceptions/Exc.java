@@ -51,5 +51,12 @@ public class Exc {
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
+
+        Exc2 exc2 = new Exc2();
+        try {
+            exc2.sth();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }
