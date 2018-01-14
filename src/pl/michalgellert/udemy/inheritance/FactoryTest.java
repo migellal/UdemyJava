@@ -27,6 +27,12 @@ public class FactoryTest {
 //        };
 
         System.out.println(phoneFactory.introduceYourself());
+        // carFactory.equals("text");
 
+        CarFactory car1 = new CarFactory();
+        CarFactory car2 = new CarFactory();
+        car1.setName("C");
+        car2.setName("C");
+        System.out.println(car1.equals(car2));
     }
 }
