@@ -14,4 +14,4 @@ public interface Document /* extends OnClickListener */ {
     }
 }
 
-// Telephone, 3 dowolne metody. 2 klasy, które będą implementowały.
+// Phone, 3 dowolne metody. 2 klasy, które będą implementowały.
