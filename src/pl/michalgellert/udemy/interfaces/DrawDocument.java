@@ -12,4 +12,13 @@ public class DrawDocument implements Document {
     public String open(String path) {
         return "draw file: " + path;
     }
+
+    public void draw(OnClickListener ocl) {
+        System.out.println("draw...");
+    }
+//
+//    @Override
+//    public void onClick() {
+//
+//    }
 }

@@ -1,6 +1,6 @@
 package pl.michalgellert.udemy.interfaces;
 
-public interface Document {
+public interface Document /* extends OnClickListener */ {
 
     public String d = "d";
     // private void foo();
@@ -13,3 +13,5 @@ public interface Document {
         System.out.println("interface Document");
     }
 }
+
+// Telephone, 3 dowolne metody. 2 klasy, które będą implementowały.
