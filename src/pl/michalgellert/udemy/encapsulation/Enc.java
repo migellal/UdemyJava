@@ -9,4 +9,13 @@ public class Enc {
     public static void main(String[] args) {
 
     }
+
+    private int getInside() {
+        InsideEnc insideEnc = new InsideEnc();
+        return insideEnc.insideZ;
+    }
+
+    private class InsideEnc {
+        private int insideZ = 0;
+    }
 }
