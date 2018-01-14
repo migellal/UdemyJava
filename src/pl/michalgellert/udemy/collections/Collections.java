@@ -19,5 +19,21 @@ public class Collections {
         treeSet.addAll(list);
         System.out.println(hashSet);
         System.out.println(treeSet);
+
+        Map<String, String> hashMap = new HashMap<>();
+        Map<String, String> treeMap = new TreeMap<>();
+
+        hashMap.put("pierwszy", "first");
+        hashMap.put("drugi", "second");
+        treeMap.putAll(hashMap);
+
+        for (String str : hashMap.values()) {
+
+        }
+
+        for(Map.Entry<String, String> entry : hashMap.entrySet()) {
+            entry.getKey();
+            entry.getValue();
+        }
     }
 }
