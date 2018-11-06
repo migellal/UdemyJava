@@ -84,5 +84,15 @@ public class Variables {
         z1 = 8;
         // z *= 2;
         System.out.println(Z_Z);
+
+        // ------------var---------------------//
+
+        var sdf = 7;
+//        var q;
+//        var w = null;
+        var g = 1; // int -> long
+        var e = 1.1; // double
+        var q = "napis";
+        var w = 'q';
     }
 }
