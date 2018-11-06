@@ -47,5 +47,12 @@ public class ConditionalStatements {
             default:
                 System.out.println("invalid parameter");
         }
+
+        //---------------short if-------------//
+
+        var even = (menu%2==0) ? "yes" : "no";
+        System.out.println(even);
+
+        // warunek ? jeśliTrue : jeśliFalse
     }
 }
